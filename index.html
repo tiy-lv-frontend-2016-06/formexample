@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+  <link rel="stylesheet" href="css/normalize.css" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <form>
+    <div>
+    <label for="fname">First Name</label>
+    <input id="fname" type="password" name="fname" placeholder="ex: Michael" />
+    </div>
+
+    <div>
+    <label for="lname">Last Name</label>
+    <input id="lname" type="text" name="lname" />
+    </div>
+
+    <div>
+    <label for="email">Email</label>
+    <input id="email" type="email" name="number" />
+    </div>
+
+    <!-- <div>
+      <label>Sex</label>
+      <div>
+      <label for="male">Male</label>
+      <input type="radio" id="male" name="sex" value="male" />
+      </div>
+      <div>
+      <label for="female">Female</label>
+      <input type="radio" id="female" name="sex" value="female">
+      </radio>
+    </div> -->
+
+    <div>
+      <label for="sex">Sex</label>
+      <select id="sex" name="sex">
+        <option value="male">Male</option>
+        <option value="female">Female</option>
+      </select>
+    </div>
+
+    <div>
+      <label>Favorite Foods</label>
+      <div>
+      <input type="checkbox" id="apple" value="apple" name="favoriteFood" />
+      <label for="apple">Apples</label>
+      </div>
+      <div>
+      <input type="checkbox" id="orange" value="orange" name="favoriteFood" />
+      <label for="orange">Oranges</label>
+      </div>
+    </div>
+    
+    <label for="summary">Summary</label>
+    <textarea id="summary" name="summary" placeholder="testing"></textarea>
+
+    <button type="submit">Submit</button>
+  </form>
+</body>
+</html>

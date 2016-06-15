@@ -1,0 +1,21 @@
+label {
+  display:inline-block;
+  width:100px;
+}
+
+input {
+  margin-bottom:10px;
+}
+
+button {
+  float:right;
+}
+
+form {
+  width:277px;
+}
+
+#summary {
+  width:300px;
+  height:100px;
+}
